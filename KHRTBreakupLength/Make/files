@@ -1,0 +1,14 @@
+/*clouds/baseClasses/sprayCloud/sprayCloud.C
+
+SPRAYPARCEL=parcels/derived/basicSprayParcel
+$(SPRAYPARCEL)/defineBasicSprayParcel.C
+$(SPRAYPARCEL)/makeBasicSprayParcelSubmodels.C*/
+
+$(LIB_SRC)/lagrangian/spray/clouds/baseClasses/sprayCloud/sprayCloud.C
+
+SPRAYPARCEL=parcels/derived/basicSprayParcel
+$(SPRAYPARCEL)/defineBasicSprayParcel.C
+$(SPRAYPARCEL)/makeBasicSprayParcelSubmodels.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libHBlagrangianSpray
