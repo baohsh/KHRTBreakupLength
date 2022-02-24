@@ -2,6 +2,9 @@
 
 # KHRTBreakupLength
 
+KH-RT model with the confiend breakup length.
+https://doi.org/10.4271/970050
+
 In "controDict", add ``libs ( "libHBlagrangianSpray.so");``.
 
 In "sprayCloudProperties", add the corresponding parameters.
